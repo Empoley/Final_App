@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "819279761852",
+    "firebase_url": "https://prelimfinalapp-bf2b3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "prelimfinalapp-bf2b3",
+    "storage_bucket": "prelimfinalapp-bf2b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819279761852:android:c5f9fc18aa560b4001dbb9",
+        "android_client_info": {
+          "package_name": "com.example.prelim_final_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMwljfZDCcLiAEc7bvNggq0CRjyP82y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

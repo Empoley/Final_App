@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Add New Weapon"
+        android:textAlignment="center"
+        android:textColor="#EBCCCC"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="#55EBCCCC" />
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/signin_background"
+        android:hint="Weapon Name (e.g., Solar Eruption)"
+        android:padding="10dp"
+        android:textColor="#EBCCCC"
+        android:textColorHint="#99EBCCCC"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etItemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/signin_background"
+        android:gravity="top|start"
+        android:hint="Weapon Description..."
+        android:padding="10dp"
+        android:textColor="#EBCCCC"
+        android:textColorHint="#99EBCCCC"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etItemImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/signin_background"
+        android:hint="Image URL (optional)"
+        android:padding="10dp"
+        android:textColor="#EBCCCC"
+        android:textColorHint="#99EBCCCC"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:background="#55EBCCCC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancelAddItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#43000000"
+            android:text="Cancel"
+            android:textColor="#EBCCCC" />
+
+        <Button
+            android:id="@+id/btnSubmitAddItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8B1E1E"
+            android:text="Add Item"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/itembg2"
+    tools:context=".Terrablade">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="311dp"
+        android:layout_height="578dp"
+        android:background="@drawable/item_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/weapon_background"
+            android:padding="20dp"
+            android:src="@drawable/terrablade"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Terrablade"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="264dp"
+            android:layout_height="328dp"
+            android:layout_marginTop="44dp"
+            android:text="The Terra Blade is a Hardmode, post-Plantera broadsword. When swung, a green aura follows the swing, reaching farther than the sword itself. The aura can hit up to three enemies. The sword will also fire a green slash projectile that pierces infinitely, dealing the weapon's damage but reducing its damage by 25% of its current damage for each target it pierces.[1] The projectile will dissipate after 1.5 seconds,[2] upon contact with blocks, or when its damage falls to 0 after piercing"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
